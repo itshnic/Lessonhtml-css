@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>SHOP</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__wrapper">
+					<div class="header__body">
+						<nav class="header__nav">
+							<ul class="header__nav_list">
+								<li class="header__nav_link">
+									<a href="index.html">Главная</a>
+								</li>
+								<li class="header__nav_link">
+									<a href="catalog.html">Каталог</a>
+								</li>
+								<li class="header__nav_link">
+									<a href="#">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<main class="main__page_contact contact-page">
+				<h1 class="contact-page__title">Форма обратной связи</h1>
+				<form action="#">
+					<div>
+						<p>Имя</p>
+						<input placeholder="Имя" tabindex="1" name="username" type="text" />
+					</div>
+					<div>
+						<p>Телефон</p>
+						<input
+							tabindex="2"
+							placeholder="89226668888"
+							name="userphone"
+							type="tel"
+						/>
+					</div>
+					<div>
+						<p>Email</p>
+						<input
+							tabindex="3"
+							placeholder="Роман"
+							name="userphone"
+							type="mail"
+						/>
+					</div>
+					<div>
+						<p>Пол</p>
+						<div>
+							<input
+								tabindex="4"
+								checked
+								type="radio"
+								name="gender"
+								value="male"
+							/>
+							Мужской
+						</div>
+						<div>
+							<input tabindex="4" type="radio" name="gender" value="female" />
+							Женский
+						</div>
+					</div>
+
+					<div>
+						<p>Опишите ваш вопрос</p>
+						<textarea tabindex="8" name="text"></textarea>
+					</div>
+
+					<div>
+						<button tabindex="11" type="submit">Отправить</button>
+						<button tabindex="12" type="reset">Очистить поля</button>
+					</div>
+				</form>
+			</main>
+			<footer class="footer">
+				<div class="footer__body">
+					<p>&copy;2023 Создано студентом GeekBR</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
