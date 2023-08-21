@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="favicon.ico" />
 		<link rel="stylesheet" href="style.css" />
 		<title>SHOP</title>
 	</head>
@@ -11,14 +12,21 @@
 			<header class="header">
 				<div class="header__wrapper">
 					<div class="header__body">
+						<div class="header__logo">
+							<a href="#" class="header__logo_link">
+								<img src="./img/logo.png" alt="logo" />
+							</a>
+						</div>
 						<nav class="header__nav">
 							<ul class="header__nav_list">
-								<li class="header__nav_link"><a href="#">Главная</a></li>
 								<li class="header__nav_link">
-									<a href="catalog.html">Каталог</a>
+									<a class="_btn" href="#">Главная</a>
 								</li>
 								<li class="header__nav_link">
-									<a href="contact.html">Контакты</a>
+									<a class="_btn" href="catalog.html">Каталог</a>
+								</li>
+								<li class="header__nav_link">
+									<a class="_btn" href="contact.html">Контакты</a>
 								</li>
 							</ul>
 						</nav>
@@ -26,7 +34,7 @@
 				</div>
 			</header>
 			<main class="main__page">
-				<h1 class="main__page_title">Каталог товаров</h1>
+				<h1 class="main__page_title _title">Каталог товаров</h1>
 				<div class="main__page_catalog main-catalog">
 					<ul class="main-catalog__list">
 						<li class="main-catalog__cart">
