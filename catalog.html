@@ -11,16 +11,21 @@
 			<header class="header">
 				<div class="header__wrapper">
 					<div class="header__body">
+						<div class="header__logo">
+							<a href="index.html" class="header__logo_link">
+								<img src="./img/logo.png" alt="logo" />
+							</a>
+						</div>
 						<nav class="header__nav">
 							<ul class="header__nav_list">
 								<li class="header__nav_link">
-									<a href="index.html">Главная</a>
+									<a class="_btn" href="index.html">Главная</a>
 								</li>
 								<li class="header__nav_link">
-									<a href="#">Каталог</a>
+									<a class="_btn" href="#">Каталог</a>
 								</li>
 								<li class="header__nav_link">
-									<a href="contact.html">Контакты</a>
+									<a class="_btn" href="contact.html">Контакты</a>
 								</li>
 							</ul>
 						</nav>
@@ -28,23 +33,28 @@
 				</div>
 			</header>
 			<main class="main__page">
-				<h1 class="main__page_title">Каталог товаров</h1>
-				<div class="main__page_catalog main-catalog">
-					<ul class="main-catalog__list">
-						<li class="main-catalog__cart">
-							<img src="./img/wath01.jpg" alt="photo" />
-							<a href="#" class="main-catalog__cart_link">Часы 1</a>
-						</li>
-						<li class="main-catalog__cart">
-							<img src="./img/wath02.jpg" alt="photo" />
-							<a href="#" class="main-catalog__cart_link">Часы 2</a>
-						</li>
-						<li class="main-catalog__cart">
-							<img src="./img/wath03.jpg" alt="photo" />
-							<a href="#" class="main-catalog__cart_link">Часы 3</a>
-						</li>
-					</ul>
-				</div>
+				<table>
+					<tr>
+						<caption class="_title">
+							Каталог товаров
+						</caption>
+						<td>
+							<img src="./img/wath01.jpg" alt="foto" />
+						</td>
+						<td><img src="./img/wath02.jpg" alt="foto" /></td>
+						<td><img src="./img/wath03.jpg" alt="foto" /></td>
+					</tr>
+					<tr>
+						<td>Часы №1</td>
+						<td>Часы №1</td>
+						<td>Часы №1</td>
+					</tr>
+					<tr class="table_btn">
+						<td colspan="3">
+							<a href="#" class="_btn">Купить оптом</a>
+						</td>
+					</tr>
+				</table>
 			</main>
 			<footer class="footer">
 				<div class="footer__body">

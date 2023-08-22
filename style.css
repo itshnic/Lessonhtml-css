@@ -115,7 +115,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex: 1 0 100%;
+	flex: 1 0 auto;
 }
 ._title {
 	text-transform: uppercase;
@@ -162,6 +162,7 @@ body {
 	padding: 10px;
 	color: gray;
 	transition: all 0.8s ease;
+	cursor: pointer;
 }
 .main-catalog__cart_link:hover {
 	font-size: 16px;
@@ -214,6 +215,33 @@ input::placeholder {
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
+}
+/* Catalog */
+table {
+	width: 80%;
+	table-layout: fixed;
+	border-spacing: 10px;
+}
+td {
+	/* overflow: hidden; */
+	padding: 10px;
+	background-color: white;
+	outline: 1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+	transition: outline 0.5s ease;
+	cursor: pointer;
+}
+td:hover {
+	outline: 1px solid white;
+}
+
+td img {
+	height: 250px;
+}
+.table_btn td {
+	outline: none;
+	background-color: inherit;
 }
 /* footer */
 .footer {
