@@ -151,6 +151,14 @@ body {
 	border-radius: 5px;
 	transition: all 0.5s ease;
 }
+#watch1:target,
+#watch2:target,
+#watch3:target {
+	padding: 0;
+	/* 	overflow: visible; */
+	border-radius: 40%;
+	outline: none;
+}
 .main-catalog__cart:hover {
 	outline: 1px solid white;
 	/* outline: none; не работает transition */
@@ -159,6 +167,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 }
+
 .main-catalog__cart_link {
 	padding: 10px;
 	color: gray;
