@@ -76,8 +76,8 @@ body {
 .header,
 .footer {
 	width: 100%;
-	background: white;
-	/* flex: 0 0 auto; */
+	background: url(./img/bg.jpg) no-repeat;
+	flex: 0 0 auto;
 }
 .header {
 	margin-bottom: 15px;
@@ -109,8 +109,8 @@ body {
 	display: block;
 	padding: 3px 15px;
 	border-radius: 3px;
-	border: 1px solid gray;
-	color: gray;
+	border: 1px solid white;
+	color: white;
 	transition: all 0.5s ease;
 }
 ._btn:hover {
@@ -298,7 +298,8 @@ td img {
 /* footer */
 .footer {
 	display: flex;
-	padding: 20px;
+	padding: 15px;
 	align-items: center;
 	justify-content: center;
+	color: white;
 }
