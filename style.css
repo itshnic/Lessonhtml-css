@@ -265,6 +265,11 @@ td img {
 	outline: none;
 	background-color: inherit;
 }
+.table_btn a {
+	display: inline-block;
+	border: 1px solid gray;
+	color: gray;
+}
 /* Map */
 
 .contact__map {
