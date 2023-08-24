@@ -52,19 +52,24 @@ h6 {
 	font-size: inherit;
 }
 /* all style */
+html {
+	height: 100%;
+}
 body {
 	color: #707070;
 	font-size: 14px;
 	background-color: #f8f8f8;
 	font-weight: 400;
+	height: 100%;
+	overflow-x: hidden;
 }
 .wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 1100px;
-	min-height: 100vh;
-	overflow: hidden;
+	height: 100%;
+
 	margin: 0 auto;
 }
 /* header */
@@ -72,7 +77,10 @@ body {
 .footer {
 	width: 100%;
 	background: white;
-	flex: 0 0 auto;
+	/* flex: 0 0 auto; */
+}
+.header {
+	margin-bottom: 15px;
 }
 .header__body {
 	display: flex;
@@ -116,7 +124,8 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	flex: 1 0 auto;
+	/* flex: 1 0 auto; */
+	flex-grow: 1;
 }
 ._title {
 	text-transform: uppercase;
@@ -256,10 +265,40 @@ td img {
 	outline: none;
 	background-color: inherit;
 }
+/* Map */
+
+.contact__map {
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.contact__map_route {
+	width: 100%;
+	height: 300px;
+}
+.balloon__address {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: gray;
+	margin-bottom: 10px;
+}
+.balloon__contacts {
+	display: flex;
+	align-items: center;
+}
+.balloon__contacts img {
+	margin-right: 10px;
+	width: 15px;
+	height: 15px;
+}
+.balloon__contacts a {
+	font-weight: bold;
+	color: gray;
+}
 /* footer */
 .footer {
 	display: flex;
-	height: 50px;
+	padding: 20px;
 	align-items: center;
 	justify-content: center;
 }
